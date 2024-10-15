@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "role_lists",
+  "info": {
+    "singularName": "role-list",
+    "pluralName": "role-lists",
+    "displayName": "roleList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_page_role_sections",
+  "info": {
+    "displayName": "Role Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "roleCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.role-card",
+      "required": true
+    }
+  }
+}
